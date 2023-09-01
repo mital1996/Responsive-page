@@ -1,0 +1,25 @@
+.getInvolved-container {
+  color: white;
+  background-color: #121212;
+  text-align: center;
+}
+
+.getInvolved-container h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 105%;
+  padding-top: 1.8rem;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  margin: 60px 0px 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(66, 64, 64);
+}

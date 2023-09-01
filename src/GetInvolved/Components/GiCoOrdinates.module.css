@@ -1,0 +1,93 @@
+.gico-container{
+    display: flex;
+    max-width: 100%;
+}
+
+.usdContainer{
+    /* border: 1px solid green; */
+    margin: 100px 0;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.cldContainer{
+    /* border: 1px solid red; */
+    color: #121212;
+    max-width: 100%;
+    margin: 100px 0;
+    padding: 0 0 0 50px;
+}
+
+.cldContainer h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 105%;
+    padding: 0 0 1.3rem;
+}
+p.commonPara{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    padding-bottom: 2rem;
+}
+.cldContainer h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105%;
+    letter-spacing: -0.02em;
+    padding-bottom: 1.3rem;
+}
+
+.cldContainer img{
+    margin-bottom: 2rem;
+}
+.cldContainer li{
+    list-style-type: disc;
+    margin: 5px 0 5px 30px;
+}
+
+@media only screen and (max-width: 934px){
+    .inputDiv img{
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 812px){
+    .cldContainer h2{
+        font-size: 22px;
+    }
+
+    p.commonPara{
+        font-size: 14px;
+    }
+
+    .cldContainer h3{
+        font-size: 18px;
+    }
+
+    .cldContainer li{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 664px){
+    .cldContainer{
+        padding: 0;
+    }
+
+    .usdContainer{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .usdContainer{
+        width: 30%;
+    }
+
+    .cldContainer{
+        width: 80%;
+    }
+}
+

@@ -1,0 +1,80 @@
+.top-container{
+    background-color: #121212;  
+    padding-bottom: 50px;
+}
+
+.top-container p{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    margin-top: 3%;
+}
+.top-container h1{
+    color:  white;
+    padding-top: 90px;
+    font-size: 64px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+}
+
+.text-container{
+    /* position: relative;  */
+    width: 55%;
+    /* z-index: 5; */
+}
+
+button{
+    padding: 17px 42px;
+    margin: 4% 0 6%;
+    background-color: #1D52D4;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #1D52D4;
+    outline: none;
+    border-radius: 100px;
+}
+
+button:hover{
+    background-color: #0d6efd;
+}
+
+
+@media only screen and (max-width: 1192px){
+    .top-container h1{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 965px){
+    .text-container{
+        width: 65%;
+    }
+    
+    .top-container h1{
+        font-size: 38px;
+        padding-top: 40px;
+    }
+
+    .top-container p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 641px){    
+    .top-container h1{
+        font-size: 22px;
+    }
+    .top-container p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 316px){
+    button{
+        padding: 8px 22px;
+        margin: 4% 0 6%;
+        border-radius: 100px;
+    }
+}

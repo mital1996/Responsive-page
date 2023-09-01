@@ -1,0 +1,54 @@
+.footer-container {
+  background-color: #121212;
+}
+
+.social-container {
+  margin-bottom: 0.8rem;
+}
+
+.social-container span {
+  letter-spacing: 1.2rem;
+}
+
+.lowest-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lowest-container span {
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: white;
+}
+
+.microsoft-anchor a {
+  color: #436bcf;
+}
+
+.microsoft-anchor a:hover {
+  color: white;
+}
+
+.terms-container a {
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1086px) {
+  .social-container {
+    text-align: center;
+  }
+  .microsoft-anchor {
+    max-width: 85%;
+    margin-bottom: 10px;
+  }
+
+  .lowest-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}

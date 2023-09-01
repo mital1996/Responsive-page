@@ -1,0 +1,83 @@
+
+.mainGiContainer{
+    background-color: #121212;
+    color: white;
+}
+
+.giContainer{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem 0;
+ 
+}
+
+p.giHeading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 1rem;
+}
+
+.giContainer h1{
+    color: white;
+    margin: 1.2rem;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 105%;
+    letter-spacing: -0.02em;
+}
+
+p.giPara{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    padding: 5px 70px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1276px){
+    .giContainer h1{
+        font-size: 38px;
+    }
+
+    p.giPara{
+        font-size: 14px;
+        padding: 5px 35px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .giContainer h1{
+        font-size: 28px;
+    }
+
+    p.giPara{
+        font-size: 12px;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .giContainer{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 704px){
+    .giContainer{
+        width: 80%;
+    }
+
+    .giContainer h1{
+        font-size: 22px;
+    }
+
+    p.giPara{
+        font-size: 12px;
+        padding: 0 20px;
+    }
+
+}
